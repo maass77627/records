@@ -14,6 +14,7 @@ code {
 #wel {
   color: white;
 }
+
 #headimage {
   border-radius: 20px;
   float: left;
@@ -95,10 +96,11 @@ code {
 }
 
 .record {
-   padding: 25px;
+    /* padding: 25px;  */
    float: left; 
-   margin-left: 8px;
-   margin-bottom: 25px;
+   margin-left: 15px;
+   margin-bottom: 80px;
+
    height: 200px;
    width: 200px;
    font-weight: bold;
@@ -134,3 +136,8 @@ code {
 .nothidden {
   visibility: visible;
 }
+
+
+
+
+

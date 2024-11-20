@@ -45,7 +45,6 @@ function EditRecord({record}) {
     function handleSubmit(e) {
         e.preventDefault()
         const form = e.target.parentNode
-        // console.log("formData:" + JSON.stringify(formData))
         console.log(e.target.parentNode.id)
         fetch(`/records/${e.target.parentNode.id}`, {
             method: "PATCH",
@@ -61,6 +60,7 @@ function EditRecord({record}) {
         }
 
     return (
+       
         <div className="edit" id={record.id}>
             <form onSubmit={handleSubmit}>
                 <label>Title:</label>
