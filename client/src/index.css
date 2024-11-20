@@ -13,6 +13,7 @@ code {
 
 #wel {
   color: white;
+  background-color: darkolivegreen;
 }
 
 #headimage {
@@ -26,16 +27,17 @@ code {
 #login {
   height: 50px;
   width: 500px;
-  background-color: rgb(173, 248, 43);
+  background-color: rgb(1, 0, 29);
   text-align: center;
   position: fixed;
   margin-left: 500px;
+  border-radius: 20px;
 }
 
 #recordform {
   height: 150px;
   width: 300px;
-  background-color: rgb(180, 125, 166);
+  background-color: rgb(1, 0, 29);
   text-align: center;
   position: fixed;
   margin-left: 500px;
@@ -43,12 +45,13 @@ code {
 }
 
 #signupform {
-  height: 100px;
+  height: 150px;
   width: 400px;
-  background-color: rgb(180, 224, 59);
+  background-color: rgb(1, 0, 29);
   text-align: center;
   position: fixed;
   margin-left: 500px;
+  border-radius: 20px;
   }
 
 #userimage {
@@ -61,13 +64,14 @@ code {
   float: right;
   font-size: 15px;
   font-weight: bold; 
-  margin-right: 10px;
+  margin-right: 20px;
   }
 
 #userrecords {
+  color: white;
   height: 175px;
   width: 1300px;
-  background-color: rgb(6, 109, 75);
+  background-color: rgb(38, 41, 40);
 }
 
 #record_image {
@@ -88,8 +92,8 @@ code {
 
 
 #rcont {
-  color: black;
-  background-color: rgb(40, 40, 41);
+  color: rgb(253, 253, 253);
+  background-color: rgb(8, 8, 10);
   height: 2000px;
   width: 1300px;
   border-radius: 25px;
@@ -117,6 +121,7 @@ code {
 }
 
 #options {
+  color: black;
   margin-top: -200px;
   position: relative; 
   border-radius: 20px;

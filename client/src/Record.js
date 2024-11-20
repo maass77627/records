@@ -20,8 +20,7 @@ function Record({record, deleteRecord, user, showColl}) {
 
 
 function deletedRecord(e) {
-   
-    fetch(`/records/${e.target.parentNode.parentNode.id}`, {
+   fetch(`/records/${e.target.parentNode.parentNode.id}`, {
         method: "DELETE"
     })
       deleteRecord(e.target.parentNode.parentNode.id)
@@ -29,9 +28,7 @@ function deletedRecord(e) {
 
 
  function addRecord(e) {
-    
-    
-      fetch(`/records/${e.target.parentNode.parentNode.id}`, {
+    fetch(`/records/${e.target.parentNode.parentNode.id}`, {
         // mode: 'no-cors',
         method: "PATCH",
         headers: {
